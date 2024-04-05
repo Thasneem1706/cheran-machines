@@ -1,0 +1,184 @@
+/**************responsive***********/
+@media screen and (max-width: 2560px) {
+}
+
+@media screen and (max-width: 1500.98px) {
+}
+
+@media screen and (max-width: 1199.98px) {
+  .digital_marketing_banner_content {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .digital_marketing_banner_content h1 {
+    font-size: 56px;
+  }
+  .digital_marketing_banner_content p {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 575.98px) {
+  .digital_marketing_banner {
+    background: linear-gradient(
+      318deg,
+      rgb(0 0 76) 33%,
+      rgb(0 0 76) 39%,
+      rgb(67 67 132) 59%,
+      rgb(67 67 132) 64%
+    );
+    padding: 100px 0 40px;
+  }
+  .digital_marketing_form_box_content h3,
+  .digital_marketing_form_box_content p,
+  .digital_marketing_banner_content,
+  .inner_main_content.digital_inner {
+    margin-left: 0;
+  }
+  .digital_marketing_banner_content h1 {
+    font-size: 54px;
+    margin-bottom: 18px;
+  }
+  .digital_marketing_banner_content h2 {
+    font-size: 26px;
+    margin-bottom: 17px;
+  }
+  .digital_marketing_banner_content p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 375.98px) {
+  .digital_marketing_banner_content h1 {
+    font-size: 48px;
+  }
+  .digital_marketing_banner_content h2 {
+    font-size: 22px;
+  }
+  .digital_marketing_banner_content p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 370.98px) {
+}
+
+
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}

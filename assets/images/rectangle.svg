@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="146" height="146" viewBox="0 0 146 146">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #f4772b;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-385 -688)">
+    <rect id="Rectangle_504" data-name="Rectangle 504" class="cls-1" width="146" height="146" transform="translate(385 688)"/>
+    <path id="Rectangle_504_-_Outline" data-name="Rectangle 504 - Outline" class="cls-2" d="M.5.5v145h145V.5H.5M0,0H146V146H0Z" transform="translate(385 688)"/>
+  </g>
+</svg>
